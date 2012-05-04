@@ -12,3 +12,9 @@
 ## Change Mysql Password
 
     Edit the puppet/manifests/default.pp variables
+
+## Issues
+
+    err: /Stage[main]/Apache/Service[apache2]: Could not evaluate: Could not find init script for 'apache2'
+    
+    I see this when I type vagrant up, this is known but I'm not quite sure whats happening.
