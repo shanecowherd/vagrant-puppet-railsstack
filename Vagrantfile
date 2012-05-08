@@ -3,7 +3,7 @@
 
 Vagrant::Config.run do |config|
   config.vm.box = "ubuntu1110"
-  # config.vm.network :hostonly, "192.168.33.10"
+  #config.vm.network :hostonly, "192.168.33.10"
   # config.vm.network :bridged
   config.vm.forward_port 80, 8081
   config.vm.forward_port 3306, 13306
